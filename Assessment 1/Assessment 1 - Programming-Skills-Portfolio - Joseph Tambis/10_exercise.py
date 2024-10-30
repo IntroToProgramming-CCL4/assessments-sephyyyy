@@ -15,5 +15,6 @@ def sub(num):
         return "Your number is negative odd"
     else:
         return "Your number is zero."
-
-main()
+        
+if __name__ == "__main__":
+    main()
