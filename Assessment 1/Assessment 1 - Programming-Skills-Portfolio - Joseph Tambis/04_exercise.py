@@ -3,6 +3,7 @@
 # This part of the program gives the variable 'score', an initial value of 0.
 score = 0
 # This set of code is needed for every question, so I placed it in this function to simplify and shorten the program.
+# This function takes 3 arguments: item_num, country, and correct_answer. These arguments are needed because this will have different contents for each question.
 def question(item_num, country, correct_answer):
      global score
      item_num = input (f"What is the capital of {country}? ").lower()
